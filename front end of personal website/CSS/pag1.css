@@ -1,0 +1,85 @@
+
+*{
+margin: 0;
+padding: 0%;
+}
+.navbar {
+    background-color: #d1e098;
+    display: block;
+    width: 29%;
+    height: 30px;
+    position: relative;
+    left: 380px;
+
+    
+
+}
+body{
+        background-color:white;
+    margin: 0%;
+}
+
+.mainimg {
+    background-color:white;
+    background-image: url(/Images/page1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px 674px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+
+    display: grid;
+    grid-template-columns: 600px auto;
+    grid-template-rows: auto;
+    margin-left: 0%;
+  
+ 
+   
+}
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    
+}
+
+.box2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.navbar ul{
+    overflow: auto;/*keeps a scrollbar if the iv is not large enough to fit all the contents*/
+}
+.navbar li{
+    float: left;
+    list-style-type: none;
+    margin: 5px 30px;
+    text-decoration: none;
+    padding: 3px 3px;
+    font-weight: 100; /* used to make the font bold*/
+}
+.box3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+}
+.content{
+    display: block;
+    border-radius: 10%;
+    background-color: lightgreen;
+    width: 50%;
+    height: 10%;
+    margin: 20px;
+    padding: 20px;
+
+}
+        
+

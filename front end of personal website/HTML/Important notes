@@ -1,0 +1,5 @@
+we need to add script right before the end of the body tag as the script is the first thing to get executed before the whole html.
+or we can add this in our javascript code.
+window.onload = function() {
+alert(document.getElementById("abc"));
+};
